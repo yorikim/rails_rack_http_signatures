@@ -1,0 +1,2 @@
+User.create(email: 'user1@example.com', password: '12345678', password_confirmation: '12345678', public_rsa256_key: '-----BEGIN PUBLIC KEY-----\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDCFENGw33yGihy92pDjZQhl0C3\n6rPJj+CvfSC8+q28hxA161QFNUd13wuCTUcq0Qd2qsBe/2hFyc2DCJJg0h1L78+6\nZ4UMR7EOcpfdUE9Hf3m/hs+FUR45uBJeDK1HSFHD8bHKD6kv8FPGfJTotc+2xjJw\noYi+1hqp1fIekaxsyQIDAQAB\n-----END PUBLIC KEY-----', hs256_key: 'some secret key')
+User.create(email: 'user2@example.com', password: '12345678', password_confirmation: '12345678', public_rsa256_key: '', hs256_key: 'some secret key 2')
